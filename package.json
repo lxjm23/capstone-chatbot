@@ -4,8 +4,8 @@
   "description": "Capstone Project",
   "main": "index.js",
   "engines": {
-    "node": "8.1.0",
-    "npm": "16.13.0"
+    "node": "16.13.0",
+    "npm": "8.1.0"
   },
   "scripts": {
     "start": "nodemon index.js"
