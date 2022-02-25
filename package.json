@@ -9,7 +9,9 @@
   },
   "scripts": {
     "start": "node index.js",
-    "backend": "nodemon index.js"
+    "backend": "nodemon index.js",
+    "frontend": "npm run start --prefix client",
+    "dev": "concurrently \"npm run backend\"  \"npm run frontend\""
   },
   "keywords": [
     "chatbot",
@@ -25,6 +27,7 @@
     "express": "^4.17.3"
   },
   "devDependencies": {
+    "concurrently": "^7.0.0",
     "nodemon": "^2.0.15"
   }
 }
