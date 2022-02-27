@@ -8,10 +8,9 @@
     "npm": "8.1.0"
   },
   "scripts": {
-    "start": "node index.js",
     "backend": "nodemon index.js",
     "frontend": "npm run start --prefix client",
-    "dev": "concurrently \"npm run backend\"  \"npm run frontend\""
+    "start": "concurrently \"npm run backend\"  \"npm run frontend\""
   },
   "keywords": [
     "chatbot",
